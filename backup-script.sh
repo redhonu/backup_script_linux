@@ -6,15 +6,18 @@ set -e
 # Display Help
 Help() {
     echo 
-    echo "folder backup"
-    echo "#############"
+    echo "Backup your folder to a new backup directory"
+    echo
+    echo "Usage: backup -f <folder_to_backup> -o <output_directory> [-r true/false] [-d <days_to_keep>]"
     echo
     echo "options:"
-    echo "    -f    folder to backup"
-    echo "    -o    output directory"
-    echo "    -r    Clear directory? true/false (default false)"
-    echo "    -d    Delete files older than this many days (default 0 to disable)"
-    echo "    help    Show help"
+    echo "-f    folder to backup"
+    echo "-o    output directory"
+    echo "-r    Clear directory? true/false (default false)"
+    echo "-d    Delete files older than this many days (default 0 to disable)"
+    echo "-h --help    Show this help"
+    echo
+    echo "for more informations see https://github.com/redhonu/backup_script_linux"
 }
 
 # Show help and exit
