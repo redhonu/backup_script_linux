@@ -16,6 +16,9 @@ bash
 | -d     | Files older than the specified number of days will be deleted in the output directory. (default 0 to keep all files) | NO       | 0       |
 | -r     | if this is set to "true", all files in the output directory will be deleted and the the new backup will be created.  | NO       | false   |
 
+## Download
+```git  clone https://github.com/redhonu/backup_script_linux.git```
+
 ## Cronjob
 This script is most usefull if used in a cronjob. <br>
 To create a cronjob" `crontab -e`<br>
