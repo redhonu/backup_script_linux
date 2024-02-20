@@ -20,7 +20,7 @@ bash
 This script is most usefull if used in a cronjob. <br>
 To create a cronjob" `crontab -e`<br>
 <br>
-An example cronjob could be: ```30 5 * * * bash /./path/to/backup.sh -f /home/user/important/data -o /home/user -d 7```
+An example cronjob could be: ```30 5 * * * bash /./path/to/backup_script_linux/backup-script.sh -f /home/user/important/data -o /home/user -d 7```
 <br>
 This would run every day at 5:30 AM, and keep the backups each for 7 days.
 
